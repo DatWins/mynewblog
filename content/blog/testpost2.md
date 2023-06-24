@@ -8,6 +8,7 @@ categories = ["blog"]
 series = []
 tags = ["patterns", "pawns"]
 type = "post"
+draft = false
 +++
 
 Pawns have long given me trouble in atomic chess. They don't seem to obey the same rules as their normal chess counterparts: no doubling, controlling space differently, isolation not being a weakness. Worse still, calculating pawn moves and captures in endgames had usually left me completely confused and overlooking moves. The brute force approach to evaluating each pawn move on its own was a straight road to time trouble and blunders, letting opponents escape with draws or even wins.
